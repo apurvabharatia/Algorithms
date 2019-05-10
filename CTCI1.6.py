@@ -15,6 +15,7 @@ def stringCompression(word):
             cnt = 1
         else:
             cnt += 1
+    result += word[index] + str(cnt)
     return result
 
 print(stringCompression("aaabbccaa"))
